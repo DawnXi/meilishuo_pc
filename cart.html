@@ -1,0 +1,348 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<title>我的购物车</title>
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/cart-empty.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="cart-head">
+		<div class="cart-headinner">
+			<div class="cart-head-left">
+				<img width="160" height="60" src="./images/meilishuo.png">
+			</div>
+			<div class="cart-head-right">
+				<div class="process-wrap">
+					<div class="process-part">
+						<span id="process-part-frist"></span>
+						<span class="process-part-img">1</span>
+						<span class="process-part-text">购物车</span>
+					</div>
+					<div class="process-part">
+						<span class="process-part-img">2</span>
+						<span class="process-part-text">确认订单</span>
+					</div>
+					<div class="process-part">
+						<span class="process-part-img">3</span>
+						<span class="process-part-text">支付</span>
+					</div>
+					<div class="process-part">
+						<span id="process-part-last" class="process-part-img">4</span>
+						<span class="process-part-text">完成</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cart-wraper">
+		<!-- 中间区域 -->
+		<div class="cart-body">
+			<!-- 购物车导航 -->
+			<ul class="cart-nav">
+				<li class="cart-title">
+					全部商品（<span></span>）
+				</li>
+				<li class="cartslide-line">|</li>
+				<li class="cart-title">
+					优惠（<span></span>）
+				</li>
+				<li class="cartslide-line">|</li>
+				<li class="cart-title">
+					库存紧张（<span></span>）
+				</li>
+			</ul>
+			<div class="cart-tab">
+				<div class="cart-tab-item">
+					<input type="checkbox" name="">
+					全选	
+				</div>
+				<div class="cart-tab-item" id="product">商品</div>
+				<div class="cart-tab-item">商品信息</div>
+				<div class="cart-tab-item">单价(元)</div>
+				<div class="cart-tab-item">数量</div>
+				<div class="cart-tab-item">小计(元)</div>
+				<div class="cart-tab-item" id="side">操作</div>
+			</div>
+			<!-- 购物车列表 -->
+			<ul class="cart-list">
+				<li class="cart-item">
+					<div class="cart-top">
+						<input class="fl" type="checkbox" name="">
+						<span class="fl">店铺：</span>
+						<a href="" class="shopname fl">hgjhgjhgch</a>
+						<a class="service fl" href="">联系客服</a>
+						<div class="coupons-box fr">
+							<ul class="discount cart_tip_red fl">  
+								<li><i></i>领取1种优惠券, 最高省59元</li>  
+								<li><i></i>149元任选2件</li>  
+								<li><i></i>满229元减59</li>  
+							</ul>
+							<span class="cart_tip_red red">优惠券：</span>
+							<div class="cart_hidetip" data-sellerid="1zyeb84"> 
+								<div class="cart_tip_hd"> 
+									<span>领取</span>
+									<i>√</i> 
+								</div> 
+								<div class="cart_hidden">
+									<p class="got_cp">
+										<a href="javascript:;" class="close"></a>
+									</p>
+									<div class="coupons">
+										<ul>
+											<li class="clearfix">
+												<span class="value fl ">59元</span>
+												<p class="cp_title fl">满229元立减</p>
+												<p class="cp_desc fl">2017.10.27-2017.10.30</p>
+												<span class="draw fr got">已领取</span>
+											</li>
+											<li class="clearfix">
+												<span class="value fl value_no">2件</span>
+												<p class="cp_title fl">活动商品149元任选</p>
+												<p class="cp_desc fl">2017.10.27-2017.10.30</p>
+												<span class="draw fr no">无需领取</span>
+											</li>
+										</ul>
+									</div>
+								</div> 
+							</div>
+						</div>
+					</div>
+					<ul class="product-list">
+						<li class="product-item fl">
+							<input class="fl" type="checkbox" name="">
+						</li>
+						<li class="product-item fl">
+							<div class="img fl">
+								<img width="80" height="80" src="./picture/cart.jpg">
+								<div class="other">
+									<span class="cut_infor">149元任选2件</span>
+									<a href="" class="cart_pregray">去凑单</a>
+								</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="title fl">2017秋季韩版新品显瘦外穿修身大弹力纯色大码九分牛仔裤女</div>
+						</li>
+						<li class="product-item fl">
+							<div class="info fl">
+								<div class="color">颜色：黑色</div>
+								<div class="size">尺码：25码【建议体重75-85斤】</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="price fl">
+								<div class="oldprice">57</div>
+								<div class="nowprice">39.9</div>
+								<div class="discount">7折</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="sum fl">
+								<button class="plus">-</button>
+								<input type="text" name="" placeholder="1">
+								<button class="reduce">+</button>
+								<span class="surplus">仅剩3件</span>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="Subtotal fl">39.9</div>
+						</li>
+						<li class="product-item fr side">
+							<div class="delete fr">删除</div>
+						</li>
+					</ul>
+				</li><li class="cart-item">
+					<div class="cart-top">
+						<input class="fl" type="checkbox" name="">
+						<span class="fl">店铺：</span>
+						<a href="" class="shopname fl">hgjhgjhgch</a>
+						<a class="service fl" href="">联系客服</a>
+						<div class="coupons-box fr">
+							<ul class="discount cart_tip_red fl">  
+								<li><i></i>领取1种优惠券, 最高省59元</li>  
+								<li><i></i>149元任选2件</li>  
+								<li><i></i>满229元减59</li>  
+							</ul>
+							<span class="cart_tip_red red">优惠券：</span>
+							<div class="cart_hidetip" data-sellerid="1zyeb84"> 
+								<div class="cart_tip_hd"> 
+									<span>领取</span>
+									<i>√</i> 
+								</div> 
+								<div class="cart_hidden">
+									<p class="got_cp">
+										<a href="javascript:;" class="close"></a>
+									</p>
+									<div class="coupons">
+										<ul>
+											<li class="clearfix">
+												<span class="value fl ">59元</span>
+												<p class="cp_title fl">满229元立减</p>
+												<p class="cp_desc fl">2017.10.27-2017.10.30</p>
+												<span class="draw fr got">已领取</span>
+											</li>
+											<li class="clearfix">
+												<span class="value fl value_no">2件</span>
+												<p class="cp_title fl">活动商品149元任选</p>
+												<p class="cp_desc fl">2017.10.27-2017.10.30</p>
+												<span class="draw fr no">无需领取</span>
+											</li>
+										</ul>
+									</div>
+								</div> 
+							</div>
+						</div>
+					</div>
+					<ul class="product-list">
+						<li class="product-item fl">
+							<input class="fl" type="checkbox" name="">
+						</li>
+						<li class="product-item fl">
+							<div class="img fl">
+								<img width="80" height="80" src="./picture/cart.jpg">
+								<div class="other">
+									<span class="cut_infor">149元任选2件</span>
+									<a href="" class="cart_pregray">去凑单</a>
+								</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="title fl">2017秋季韩版新品显瘦外穿修身大弹力纯色大码九分牛仔裤女</div>
+						</li>
+						<li class="product-item fl">
+							<div class="info fl">
+								<div class="color">颜色：黑色</div>
+								<div class="size">尺码：25码【建议体重75-85斤】</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="price fl">
+								<div class="oldprice">57</div>
+								<div class="nowprice">39.9</div>
+								<div class="discount">7折</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="sum fl">
+								<button class="plus">-</button>
+								<input type="text" name="" placeholder="1">
+								<button class="reduce">+</button>
+								<span class="surplus">仅剩3件</span>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="Subtotal fl">39.9</div>
+						</li>
+						<li class="product-item fr side">
+							<div class="delete fr">删除</div>
+						</li>
+					</ul>
+				</li><li class="cart-item">
+					<div class="cart-top">
+						<input class="fl" type="checkbox" name="">
+						<span class="fl">店铺：</span>
+						<a href="" class="shopname fl">hgjhgjhgch</a>
+						<a class="service fl" href="">联系客服</a>
+						<div class="coupons-box fr">
+							<ul class="discount cart_tip_red fl">  
+								<li><i></i>领取1种优惠券, 最高省59元</li>  
+								<li><i></i>149元任选2件</li>  
+								<li><i></i>满229元减59</li>  
+							</ul>
+							<span class="cart_tip_red red">优惠券：</span>
+							<div class="cart_hidetip" data-sellerid="1zyeb84"> 
+								<div class="cart_tip_hd"> 
+									<span>领取</span>
+									<i>√</i> 
+								</div> 
+								<div class="cart_hidden">
+									<p class="got_cp">
+										<a href="javascript:;" class="close"></a>
+									</p>
+									<div class="coupons">
+										<ul>
+											<li class="clearfix">
+												<span class="value fl ">59元</span>
+												<p class="cp_title fl">满229元立减</p>
+												<p class="cp_desc fl">2017.10.27-2017.10.30</p>
+												<span class="draw fr got">已领取</span>
+											</li>
+											<li class="clearfix">
+												<span class="value fl value_no">2件</span>
+												<p class="cp_title fl">活动商品149元任选</p>
+												<p class="cp_desc fl">2017.10.27-2017.10.30</p>
+												<span class="draw fr no">无需领取</span>
+											</li>
+										</ul>
+									</div>
+								</div> 
+							</div>
+						</div>
+					</div>
+					<ul class="product-list">
+						<li class="product-item fl">
+							<input class="fl" type="checkbox" name="">
+						</li>
+						<li class="product-item fl">
+							<div class="img fl">
+								<img width="80" height="80" src="./picture/cart.jpg">
+								<div class="other">
+									<span class="cut_infor">149元任选2件</span>
+									<a href="" class="cart_pregray">去凑单</a>
+								</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="title fl">2017秋季韩版新品显瘦外穿修身大弹力纯色大码九分牛仔裤女</div>
+						</li>
+						<li class="product-item fl">
+							<div class="info fl">
+								<div class="color">颜色：黑色</div>
+								<div class="size">尺码：25码【建议体重75-85斤】</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="price fl">
+								<div class="oldprice">57</div>
+								<div class="nowprice">39.9</div>
+								<div class="discount">7折</div>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="sum fl">
+								<button class="plus">-</button>
+								<input type="text" name="" placeholder="1">
+								<button class="reduce">+</button>
+								<span class="surplus">仅剩3件</span>
+							</div>
+						</li>
+						<li class="product-item fl">
+							<div class="Subtotal fl">39.9</div>
+						</li>
+						<li class="product-item fr side">
+							<div class="delete fr">删除</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>		
+		<!-- 操作区 -->
+		<div class="operation">
+			<input class="fl" type="checkbox" name="">全选
+			<a class="delete fl" href="">删除</a>
+			<a class="empty fl" href="">清空失效商品</a>
+            <a class="paybar fr">去付款</a>
+			<div class="pay-info fr">
+				共有 <span class="goods-num fr"></span> 款商品，总计：￥<div class="total-price fr">0.00</div>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+
+
+
+
+</body></html>

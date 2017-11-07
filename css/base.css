@@ -1,0 +1,55 @@
+/*重置样式*/
+*,::before,::after{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #333;
+	font-size: 14px;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+input,textarea{
+	outline: none;
+	border:none;
+	resize: none;
+}
+
+
+/*公用样式*/
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix{
+	clear: both;
+}
+.ml{
+	margin-left:10px;
+}
+.mr{
+   margin-right: 10px;
+}
+.pl{
+	padding-left: 20px;
+}
+.pr{
+	padding-right: 20px;
+}
+.bl{
+	border-left: solid red 1px;
+}
+.br{
+	border-right: solid red 1px; 
+}
+.hide{
+	display: none;
+}

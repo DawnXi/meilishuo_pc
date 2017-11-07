@@ -1,0 +1,129 @@
+/*æœç´¢éƒ¨åˆ†*/
+#search-warper{
+	width: 100%;
+	border-bottom: red solid 1px;
+}
+#com-search{
+	width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+}
+.com-search-left{
+	margin-top: 40px;
+}
+.com-search-left .logo img{
+	width: 204px;
+	height: 52px;
+	background-size: 100%;
+	margin-right: 150px;
+}
+.com-search-center{
+	width: 520px;
+	height: 80px;
+	margin-top: 50px;
+	/*	background: yellowgreen;*/
+}
+.com-search-center form{
+
+}
+
+.com-search-center form input{
+	width: 437px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #f36;
+	padding: 0 0 0 8px;
+	float: left;
+}
+.com-search-center form .search-icon{
+	width: 70px;
+	height: 29px;
+	display: block;
+	float: left;
+	padding-top: 5px;
+	background-color: #f36;
+}
+/*å†…å®¹éƒ¨åˆ†*/
+#order-wraper{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+/*å·¦è¾¹æ */
+.left-side{
+	/* float: left; */
+	width: 120px;
+	/* height: 640px; */
+	margin-top: 25px;
+	margin-right: 14px;
+	background: #fafafa;
+	/* border-top: 1px solid #e5e5e5; */
+	border: 1px solid #e5e5e5;
+	padding: 1px 20px 55px 30px;
+	margin-bottom: 20px;
+}
+.side-part{}
+.side-part i{}
+.side-title{
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+.side-list{}
+.side-list li{
+    font-size: 12px;
+    margin-top: 15px;
+    /* color: #676565; */
+}
+.side-list li a{
+    /* font-weight: 700; */
+    color: #8a8686;
+}
+
+/*è®¢å•è¯¦æƒ…*/
+.order-detail{
+    /* float: right; */
+    width: 1014;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #fafafa;
+    position: absolute;
+    left: 190px;
+    top: 0px;
+}
+.order-detail .detail-list{}
+.detail-list .detail-item{
+    /* display: block; */
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 12px;
+}
+/*è®¢å•åˆ—è¡¨*/
+.order-list{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+.order-item{}
+.order-empty{
+    width: 600px;
+    height: 165px;
+    /* background: yellowgreen; */
+    /* margin: 0 auto; */
+    margin: 50px auto 10px;
+}
+.order-empty .img{
+    width: 140px;
+    float: left;
+}
+.order-empty .img img{}
+.order-empty .title{
+    float: left;
+    margin: 50px 25 28px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+}

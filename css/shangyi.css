@@ -1,0 +1,83 @@
+/*分类导航*/
+.product-wraper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.product-nav{
+    width: 100;
+    width: 100%;
+    height: 146px;
+    border: solid 1px #e1e1e1;
+    padding: 20 0 20 20;
+    /* padding-left: 26px; */
+    /* margin-right: 20px; */
+    /* background: yellowgreen; */
+}
+.product-kinds{
+	width: 280px;
+	margin-left: 20px;
+	margin-top: 20px;
+	/* padding-right: 0%; */
+}
+#frist-kinds{
+	margin-left: 20px;
+}
+.kinds-left{
+    float: left;
+    width: 60px;
+    height: 126px;
+    margin-right: 15px;
+    /*    background: yellow;*/
+}
+.kinds-left h4{
+    margin-bottom: 10px;
+}
+.kinds-left .kinds-img{
+/*    background: black;*/
+}
+.kinds-left .kinds-img img{}
+.kinds-right {
+    width: 220px;
+    height: 50px;
+/*    background: red;*/
+    margin-left: 10px;
+}
+.kinds-right .kinds-list{}
+.kinds-list .kinds-item{
+    font-size: 12px;
+    color: #333;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+/*过滤器*/
+.filter{
+    margin-top: 20px;
+    width: 100%;
+    height: 42px;
+    border: solid 1px #e1e1e1;
+    background: #f8f8f8;
+}
+.filter a{
+    display: block;
+    width: 66px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-right: solid red 1px;
+    float: left;
+}
+#filter-form{
+    /* width: 180px; */
+    height: 42px;
+    line-height: 39px;
+    float: left;
+    margin-left: 20px;
+}
+#filter-form i{}
+#filter-form input{
+    width: 50px;
+    height: 26px;
+}
+#filter-form button{}
+
