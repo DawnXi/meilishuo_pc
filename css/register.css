@@ -1,28 +1,16 @@
 
 /*头部*/
-.login-wraper{
+.register-wraper{
 	width: 100%;
 	min-width: 1200px;
 	margin:0 auto;
 	position: absolute;
 }
-.login-top{
+.register-top{
 	width: 1200px;
 	margin: 0 auto;
 }
-.warning{
-	width: 860px;
-	height: 30px;
-	position: relative;
-	top: 43px;
-	left: 230px;
-	line-height: 30px;
-	text-align: center;
-	font-size: 11px;
-	color: #666;
-	background-color: #ffefef;
-	border: 1px solid #ffc0cc;
-}
+
 .logo{
 	width: 300px;
 	height: 55px;
@@ -39,7 +27,7 @@
 	height:100%;
 }
 /*登录模块*/
-.login-block{
+.register-block{
 	width: 400px;
 	height: 350px;
 	background-color: #ffeceb;
@@ -47,41 +35,44 @@
 	left: 64%;
 	bottom: 22%;
 }
-.login-block form{}
-.login-block-tab{
+.register-block form{}
+.register-block-tab{
 	width: 100%;
 	height: 70px;
 }
-.login-block-tab::after{
+.register-block-tab::after{
 	content: "";
 	display: block;
 	clear: both;
 }
-.login-block-tab .login-tab{
-	width: 50%;
+.register-block-tab .register-tab{
+	width: 100%;
 	float: left;
 	height: 42px;
 	line-height: 42px;
-	text-align: center;
+	/* text-align: left; */
 	font-size: 14px;
 	font-weight: 700;
 	color: #3c3c3c;
 	margin-top: 20px;
 	border-bottom: 1px solid #ccc;
 }
-.login-block-tab .login-tab a{
+.register-block-tab .register-tab a{
 	display: block;
 	width: 120px;
 	height: 42px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	/*background: red;*/
+	line-height: 25px;
+	float: left;
+	margin-left: 40px;
 }
-.login-block-tab .login-tab1{}
-.login-block-tab .login-tab2{}
-.login-block-tab .tab1-inner{
+.register-block-tab .register-tab1{}
+.register-block-tab .register-tab2{}
+.register-block-tab .tab1-inner{
 	display: none;
 }
-.login-block-tab .tab2-inner{
+.register-block-tab .tab2-inner{
 	/* display: none; */
 }
 .tab-inner{
@@ -124,49 +115,41 @@ a.submit{
     width: 320px;
     height: 40px;
     line-height: 40px;
-    background: yellowgreen;
+    background: #ff5777;
     text-align: center;
     top: 60%;
     left: 10%;
     color: white;
     border-radius: 4px;
 }
-div.login-type{
+div.register-agree{
     position: absolute;
     left: 11%;
     top: 76%;
+    font-size: 12px;
 }
-.login-type div {
+.register-agree div {
     float: left;
     margin-right: 50px;
     font-size: 12px;
     color: #333;
 }
-div.login-type .type-1{}
-div.login-type .type-2{}
+div.register-type .type-1{}
+div.register-type .type-2{}
 div.type1 a{}
 div.type2 a{}
-div.login-type a{
-    height: 20px;
-    line-height: 20px;
-    display: inline-flex;
-}
-div.login-type a img{
-    margin-right: 5px;
-}
-div.login-other{
+
+div.register-login{
     position: absolute;
     font-size: 12px;
     color: #333;
     bottom: 8%;
     right: 10%;
 }
-div.login-other .forget{
-    margin-right: 15px;
+div.register-login a {
+    color: #666;
     text-decoration: underline;
-    color: #959595;
 }
-div.login-other .register{
+.register-agree a {
     text-decoration: underline;
-    color: #ff5777;
 }

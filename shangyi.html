@@ -5,8 +5,86 @@
 	<title>上衣</title>
 	<link rel="stylesheet" type="text/css" href="./css/base.css">
 	<link rel="stylesheet" type="text/css" href="./css/shangyi.css">
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_455242_uo2jcbzas1j7nwmi.css">
 </head>
 <body>
+    <!-- 头部 -->
+	<div id="head">
+		<!-- 头部菜单 -->
+		<div id="header-inner">
+			<header id="header-top">
+				<ul class="header-ul clearfix">
+					<li class="header-item fl home "><a href=""><i class="iconfont icon-shouye"></i>美丽说首页</a></li>
+					<li class="header-item fl br pl pr "><a href=""><i class="iconfont icon-weixin"></i>微信登录</a></li>
+					<li class="header-item fl br pl pr "><a href=""><i class="iconfont icon-qq"></i>QQ登录</a></li>
+					<li class="header-item fl br pl pr "><a href="./login.html"><i class="iconfont"></i>登录</a></li>
+					<li class="header-item fl br pl pr "><a href="./register.html"><i class="iconfont"></i>注册</a></li>
+					<li class="header-item fl br pl pr "><a href="./connect.html"><i class="iconfont icon-shoucang"></i>我的收藏</a></li>
+					<li class="header-item fl br pl pr "><a href="./cart.html"><i class="iconfont icon-gouwuchekong"></i>我的购物车</a></li>
+					<li class="header-item fl br pl pr "><a href="./order-empty.html"><i class="iconfont icon-aiguifanfile2"></i>我的订单</a></li>
+					<li class="header-item fl br pl pr hide">
+						帮助中心<i class="iconfont icon-arrLeft-fill"></i>
+						<ul class="help-list">
+							<li><a href="">买家服务</a></li>
+							<li><a href="">商家服务</a></li>
+							<li><a href="">规则中心</a></li>
+						</ul>
+					</li>
+					<li class="header-item fl br pl pr "><a href=""><i class="iconfont"></i>商家后台</a></li>
+				</ul>
+			</header>
+		</div>
+		<!-- 搜索框及两边     -->
+		<div id="com-search">
+			<div class="com-search-left fl">
+				<a class="logo">
+					<img src="./images/meilishuo.png">
+				</a>
+			</div>
+			<div class="com-search-center fl">
+				<div class="baobei">宝贝</div>
+				<form>
+					<input type="text" name="search">
+					<div class="search-icon">
+						<i class="iconfont icon-sousuo"></i>
+					</div>
+				</form>
+				<ul class="formlist">
+					<li class="formlist-item fl">秋季套装</li>
+					<li class="formlist-item fl">连衣裙</li>
+					<li class="formlist-item fl">破洞针织</li>
+					<li class="formlist-item fl">薄卫衣</li>
+					<li class="formlist-item fl">薄外套</li>
+					<li class="formlist-item fl">秋季单鞋</li>
+					<li class="formlist-item fl">牛仔外套</li>
+					<li class="formlist-item fl">阔腿裤</li>
+					<li class="formlist-item fl">小白鞋</li>
+					<li class="formlist-item fl">包包新款</li>
+				</ul>
+			</div>
+			<div class="com-search-right fr">
+				<img src="./picture/erweima.gif">
+			</div>
+		</div>
+	</div>
+	<!-- 主导航 -->
+	<div id="mian-nav-box">
+		<nav id="main-nav">
+			<ul class="main-nav-list">
+				<li class="nav-item fl"><a href="./index.html">首页</a></li>
+				<li class="nav-item fl"><a href="./shangyi.html">上衣</a></li>
+				<li class="nav-item fl"><a href="">裙子</a></li>
+				<li class="nav-item fl"><a href="">裤子</a></li>
+				<li class="nav-item fl"><a href="">女鞋</a></li>
+				<li class="nav-item fl"><a href="">包包</a></li>
+				<li class="nav-item fl"><a href="">配饰</a></li>
+				<li class="nav-item fl"><a href="">美妆</a></li>
+				<li class="nav-item fl"><a href="">男友</a></li>
+				<li class="nav-item fl"><a href="">童装</a></li>
+				<li class="nav-item fl"><a href="">家居</a></li>
+			</ul>
+		</nav>
+	</div>
 	<div class="product-wraper">
 		<!-- 分类导航 -->
 		<div class="product-nav">
@@ -99,7 +177,7 @@
 		</div>
 		<!-- 过滤器 -->
 		<div class="filter">
-			<a href="">流行</a>
+			<a class="frist" href="">流行</a>
 			<a href="">热销</a>
 			<a href="">伤心</a>
 			<a href="">价格<i></i></a>
@@ -110,8 +188,550 @@
 				<button>确认</button>
 			</form>
 		</div>
-		<!-- todo -->
-		<div class="goods-list"></div>
+		<!-- 商品列表 -->
+		<ul id="goods-list">
+			<li class="goods-item fl">
+				<a href="" class="goods-img">
+					<img width="224" height="340" src="http://s3.mogucdn.com/mlcdn/917393/171024_3912ki2ah6b3107044l4j02325i9f_1600x2250.jpg" alt="">
+					<div class="goods-info">
+						<div class="part">
+							<div class="price">￥99</div>
+							<div class="collect">
+								<i class="iconfont icon-shoucang"></i>
+								<span>666</span>
+							</div>
+						</div>
+						<div class="title">
+							<span>2017冬季新品百搭显瘦套头黑色毛衣针织衫</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="goods-item fl">
+				<a href="" class="goods-img">
+					<img width="224" height="340" src="http://s3.mogucdn.com/mlcdn/917393/171024_7g4flbc76201g5hf5lad96k3ia15g_1600x2250.jpg" alt="">
+					<div class="goods-info">
+						<div class="part">
+							<div class="price">￥99</div>
+							<div class="collect">
+								<i class="iconfont icon-shoucang"></i>
+								<span>666</span>
+							</div>
+						</div>
+						<div class="title">
+							<span>2017冬季新品百搭显瘦套头黑色毛衣针织衫</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="goods-item fl">
+				<a href="" class="goods-img">
+					<img width="224" height="340" src="http://s11.mogucdn.com/mlcdn/917393/171025_57667ickhbgjea5hc5695lg8840jf_813x1143.jpg" alt="">
+					<div class="goods-info">
+						<div class="part">
+							<div class="price">￥99</div>
+							<div class="collect">
+								<i class="iconfont icon-shoucang"></i>
+								<span>666</span>
+							</div>
+						</div>
+						<div class="title">
+							<span>2017冬季新品百搭显瘦套头黑色毛衣针织衫</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="goods-item fl">
+				<a href="" class="goods-img">
+					<img width="224" height="340" src="http://s3.mogucdn.com/mlcdn/917393/171024_8e217kh1lief6gd57fdlj2142j034_1600x2250.jpg" alt="">
+					<div class="goods-info">
+						<div class="part">
+							<div class="price">￥99</div>
+							<div class="collect">
+								<i class="iconfont icon-shoucang"></i>
+								<span>666</span>
+							</div>
+						</div>
+						<div class="title">
+							<span>2017冬季新品百搭显瘦套头黑色毛衣针织衫</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="goods-item fl isside">
+				<a href="" class="goods-img">
+					<img width="224" height="340" src="http://s3.mogucdn.com/mlcdn/917393/171023_30haeeic4eb190ijk5ba6f2k4dkd5_1600x2250.jpg" alt="">
+					<div class="goods-info">
+						<div class="part">
+							<div class="price">￥99</div>
+							<div class="collect">
+								<i class="iconfont icon-shoucang"></i>
+								<span>666</span>
+							</div>
+						</div>
+						<div class="title">
+							<span>2017冬季新品百搭显瘦套头黑色毛衣针织衫</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="goods-item fl">
+				<a href="" class="goods-img">
+					<img width="224" height="340" src="http://s3.mogucdn.com/mlcdn/917393/171022_19hg7769ddb47c8j457f70jfc1c4b_1600x2250.jpg" alt="">
+					<div class="goods-info">
+						<div class="part">
+							<div class="price">￥99</div>
+							<div class="collect">
+								<i class="iconfont icon-shoucang"></i>
+								<span>666</span>
+							</div>
+						</div>
+						<div class="title">
+							<span>2017冬季新品百搭显瘦套头黑色毛衣针织衫</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="goods-item fl">
+				<a href="" class="goods-img">
+					<img width="224" height="340" src="http://s3.mogucdn.com/mlcdn/917393/171024_7g4flbc76201g5hf5lad96k3ia15g_1600x2250.jpg" alt="">
+					<div class="goods-info">
+						<div class="part">
+							<div class="price">￥99</div>
+							<div class="collect">
+								<i class="iconfont icon-shoucang"></i>
+								<span>666</span>
+							</div>
+						</div>
+						<div class="title">
+							<span>2017冬季新品百搭显瘦套头黑色毛衣针织衫</span>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<!-- 分页 -->
+		<div id="content">
+		    <div class="box">
+		        1
+		    </div>
+		    <div class="box">
+		        2
+		    </div>
+		    <div class="box">
+		        3
+		    </div>
+		    <div class="box">
+		        4
+		    </div>
+		    <div class="box">
+		        5
+		    </div>
+		    <div class="box">
+		        6
+		    </div>
+		    <div class="box">
+		        7
+		    </div>
+		    <div class="box">
+		        8
+		    </div>
+		    <div class="box">
+		        9
+		    </div>
+		    <div class="box">
+		        <10>
+		    </div>
+		    <div class="box">
+		        <11>
+		    </div>
+		    <div class="box">
+		        <12>
+		    </div>
+		    <div class="box">
+		        <13>
+		    </div>
+		    <div class="box">
+		        <14>
+		    </div>
+		    <div class="box">
+		        <15>
+		    </div>
+		    <div class="box">
+		        <16>
+		    </div>
+		    <div class="box">
+		        <17>
+		    </div>
+		    <div class="box">
+		        <18>
+		    </div>
+		    <div class="box">
+		        <19>
+		    </div>
+		    <div class="box">
+		        <20>
+		    </div>
+		    <div class="box">
+		        <21>
+		    </div>
+		    <div class="box">
+		        <22>
+		    </div>
+		    <div class="box">
+		        <23>
+		    </div>
+		    <div class="box">
+		        <24>
+		    </div>
+		    <div class="box">
+		        <25>
+		    </div>
+		    <div class="box">
+		        <26>
+		    </div>
+		    <div class="box">
+		        <27>
+		    </div>
+		    <div class="box">
+		        <28>
+		    </div>
+		    <div class="box">
+		        <29>
+		    </div>
+		    <div class="box">
+		        <30>
+		    </div>
+		    <div class="box">
+		        <31>
+		    </div>
+		    <div class="box">
+		        <32>
+		    </div>
+		    <div class="box">
+		        <33>
+		    </div>
+		    <div class="box">
+		        <34>
+		    </div>
+		    <div class="box">
+		        <35>
+		    </div>
+		    <div class="box">
+		        <36>
+		    </div>
+		    <div class="box">
+		        <37>
+		    </div>
+		    <div class="box">
+		        <38>
+		    </div>
+		    <div class="box">
+		        <39>
+		    </div>
+		    <div class="box">
+		        <40>
+		    </div>
+		    <div class="box">
+		        <41>
+		    </div>
+		    <div class="box">
+		        <42>
+		    </div>
+		    <div class="box">
+		        <43>
+		    </div>
+		    <div class="box">
+		        <44>
+		    </div>
+		    <div class="box">
+		        <45>
+		    </div>
+		    <div class="box">
+		        <46>
+		    </div>
+		    <div class="box">
+		        <47>
+		    </div>
+		    <div class="box">
+		        <48>
+		    </div>
+		    <div class="box">
+		        <49>
+		    </div>
+		    <div class="box">
+		        <50>
+		    </div>
+		    <div class="box">
+		        <51>
+		    </div>
+		    <div class="box">
+		        <52>
+		    </div>
+		    <div class="box">
+		        <53>
+		    </div>
+		    <div class="box">
+		        <54>
+		    </div>
+		    <div class="box">
+		        <55>
+		    </div>
+		    <div class="box">
+		        <56>
+		    </div>
+		    <div class="box">
+		        <57>
+		    </div>
+		    <div class="box">
+		        <58>
+		    </div>
+		    <div class="box">
+		        <59>
+		    </div>
+		    <div class="box">
+		        <60>
+		    </div>
+		    <div class="box">
+		        <61>
+		    </div>
+		    <div class="box">
+		        <62>
+		    </div>
+		    <div class="box">
+		        <63>
+		    </div>
+		    <div class="box">
+		        <64>
+		    </div>
+		    <div class="box">
+		        <65>
+		    </div>
+		    <div class="box">
+		        <66>
+		    </div>
+		    <div class="box">
+		        <67>
+		    </div>
+		    <div class="box">
+		        <68>
+		    </div>
+		    <div class="box">
+		        <69>
+		    </div>
+		    <div class="box">
+		        <70>
+		    </div>
+		    <div class="box">
+		        <71>
+		    </div>
+		    <div class="box">
+		        <72>
+		    </div>
+		    <div class="box">
+		        <73>
+		    </div>
+		    <div class="box">
+		        <74>
+		    </div>
+		    <div class="box">
+		        <75>
+		    </div>
+		    <div class="box">
+		        <76>
+		    </div>
+		    <div class="box">
+		        <77>
+		    </div>
+		    <div class="box">
+		        <78>
+		    </div>
+		    <div class="box">
+		        <79>
+		    </div>
+		    <div class="box">
+		        <80>
+		    </div>
+		    <div class="box">
+		        <81>
+		    </div>
+		    <div class="box">
+		        <82>
+		    </div>
+		    <div class="box">
+		        <83>
+		    </div>
+		    <div class="box">
+		        <84>
+		    </div>
+		    <div class="box">
+		        <85>
+		    </div>
+		    <div class="box">
+		        <86>
+		    </div>
+		    <div class="box">
+		        <87>
+		    </div>
+		    <div class="box">
+		        <88>
+		    </div>
+		    <div class="box">
+		        <89>
+		    </div>
+		    <div class="box">
+		        <90>
+		    </div>
+		    <div class="box">
+		        <91>
+		    </div>
+		    <div class="box">
+		        <92>
+		    </div>
+		    <div class="box">
+		        <93>
+		    </div>
+		    <div class="box">
+		        <94>
+		    </div>
+		    <div class="box">
+		        <95>
+		    </div>
+		    <div class="box">
+		        <96>
+		    </div>
+		    <div class="box">
+		        <97>
+		    </div>
+		    <div class="box">
+		        <98>
+		    </div>
+		    <div class="box">
+		        <99>
+		    </div>
+		    <div class="box">
+		        <100>
+		    </div>
+		    </div>
+
+			</div>
+		<div id="page">
+   
+        </div>
 	</div>
+    <!-- 底部 -->
+	<footer id="footer">
+		<div class="footerinner">
+			<div class="footerinner-left">
+				<ul class="footer-nav">
+					<li class="footer-item">
+						<h4>买家帮助</h4>
+						<ul class="footer-item-list">
+							<li class="footer-smallitem">
+								<a href="#">新手指南</a>
+							</li>
+							<li class="footer-smallitem">
+								<a href="#">服务保障</a>
+							</li>
+							<li class="footer-smallitem">
+								<a href="#">常见问题</a>
+							</li>
+							<li class="footer-smallitem">
+								<a href="#">风险监测</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h4>商家帮助</h4>
+						<ul class="footer-item-list">
+							<li class="footer-smallitem">
+								<a href="#">供货商招募</a>
+							</li>
+							<li class="footer-smallitem">
+								<a href="#">商家后台</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h4>关于我们</h4>
+						<ul class="footer-item-list">
+							<li class="footer-smallitem">
+								<a href="#">关于美丽说</a>
+							</li>
+							<li class="footer-smallitem">
+								<a href="#">联系我们</a>
+							</li>
+						</ul>
+					</li>
+					<li class="footer-item">
+						<h4>关注我们</h4>
+						<ul class="footer-item-list">
+							<li class="footer-smallitem">
+								<span></span>
+								<a href="#">新浪微博</a>
+							</li>
+							<li class="footer-smallitem">
+								<span id="f-qq-icon"></span>
+								<a href="#">QQ空间</a>
+							</li>
+							<li class="footer-smallitem">
+								<span id="f-tenxunweibo-icon"></span>
+								<a href="#">腾讯微博</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="footerinner-right">
+				<div class="footer-other">
+					<div class="footer-other-title">
+						<h4>美丽说服务好</h4>
+						<img src="./images/weixin.jpg"></div>
+						
+					</div>
+					<div class="footer-other">
+						<div class="footer-other-title">
+							<h4>美丽说客户端下载</h4>
+							<img src="./images/weibo.png"></div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="footer-record"> 
+					Copyright ©2017 Meilishuo.com &nbsp;
+					<a href="https://s10.mogucdn.com/new1/v1/bmisc/518ea1bbd36948b90e658485d2700e62/181714310539.pdf" target="_blank">电信与信息服务业务经营许可证100798号</a>
+					&nbsp;
+					<a href="https://s10.mogucdn.com/p1/160811/idid_ifrtszjqmmzdazrumezdambqhayde_2436x3500.jpg" target="_blank">经营性网站备案信息</a>
+					&nbsp;<br> 
+					京ICP备11031139号&nbsp; 京公网安备110108006045&nbsp;&nbsp; 客服电话：4000-800-577&nbsp; 文明办网文明上网举报电话：010-82615762 &nbsp;
+					<a href="http://net.china.com.cn/index.htm" target="_blank">违法不良信息举报中心</a> 
+				</div>
+		</footer>
+    <!-- 侧栏 -->
+    <div id="sidebar">
+		<div class="siderbar-continer">
+		<ul class="sidebar-list">
+			<li class="sidebar-item first"></li>
+			<li class="sidebar-item app"><a href=""><i class="iconfont icon-app"></i><span>下载<span class="app">APP</span></span></a></li>
+			<li class="sidebar-item"><a href=""><i class="iconfont icon-gouwuchekong"></i><span>购物车</span></a></li>
+			<li class="sidebar-item"><a href=""><i class="iconfont icon-xiaoxi"></i><span>消息</span></a></li>
+			<li class="sidebar-item"><a href=""><i class="iconfont icon-youhuiquan"></i><span>优惠券</span></a></li>
+			<li class="sidebar-item"><a href=""><i class="iconfont icon-shoucang"></i><span>收藏</span></a></li>
+			<li class="sidebar-item last"><a href=""><i class="iconfont icon-zuji"></i><span>足迹</span></a></li>
+			<li class="sidebar-item fixed"><a href=""><i class="iconfont icon-icon_huaban"></i></a></li>
+		</ul>
+		</div>
+    </div>
+		
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/paging.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('#page').paging({pageNo:1,totalPage:100,callback:function(cur){
+            console.log(cur);
+        }});
+    });
+    </script>
+
 </body>
 </html>

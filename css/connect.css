@@ -6,11 +6,6 @@
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
-.connect-tab{
-
-
-}
-
 .connect-tab div{
 	float: left;
 	width: 150px;
@@ -35,7 +30,7 @@
 .connect-detail{
 	width: 100%;
 	margin-top: 15px;
-
+    margin-bottom: 20px;
 }
 .connect-detail-tab{
     width: 100%;
@@ -70,4 +65,47 @@
     color: #999;
     text-align: center;
     margin-top: 15px;
+}
+/*收藏宝贝列表*/
+.connect-product-list{
+	display: none;
+}
+.connect-product-list .connect-item{
+	width: 224px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.connect-product-list .connect-item.isside{
+	width: 224px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+.connect-info .part{
+	position: relative;
+}
+.connect-info .part .price{
+	margin-top: 5px;
+	height: 24px;
+	font-size: 16px;
+	color: #f36;
+}
+.connect-info .part .collect{
+	/* float: right; */
+	position: absolute;
+	top: 0px;
+	right: 0;
+	color: #b3b0b0;
+}
+/*收藏的店铺*/
+.connect-shop-list{}
+.connect-shop-list li{}
+.connect-shop-list li .left{}
+.left .shop{
+
+}
+.left .dynamic{
+
+}
+.left .evaluate{
+	
 }
