@@ -85,12 +85,12 @@
     border: #e5e5e5 solid 1px;
     border-top: none;
 }
-.right-side .form-info{
-    width: 495px;
+.right-side .form-password{
+    width: 500px;
     font-size: 12px;
     margin-left: 70px;
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .right-side .title{
     width: 1000px;
@@ -105,28 +105,12 @@
     font-size: 18px;
     font-weight: 500;
 }
+
 .right-side .formgroup{
     height: 35px;
     line-height: 35px;
     margin-bottom: 20px;
-}
-.right-side .formgroup .select-container{
-    display: inline-block;
-    height: 35px;
-    width: 135px;
-    padding-right: 3px;
-    margin-right: 10px;
-    border-right: #e5e5e5 solid 1px;
-    overflow: hidden;
-    background: url("../images/select-bg.png") no-repeat right;
-}
-.formgroup .select-container .select{
-    width: 152px;
-    height: 100%;
-    padding-left: 10px;
-    background: 0 0;
-    padding-right: -4px;
-    border: #e5e5e5 solid 1px;
+    margin-right: 15px;
 }
 
 .right-side .formgroup span{
@@ -137,30 +121,32 @@
 }
 .right-side .formgroup input{
     height: 33px;
-    width: 395px;
+    width: 170px;
     border: #e5e5e5 solid 1px;
+    background: #f7f7f7;
 }
-.right-side .formgroup input.sex{
-    height: 15px;
-    width: 20px;
+.right-side .phone{
+    /* width: 500px; */
+    height: 35px;
+    line-height: 37px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 150px;
+    /* font-size: 12px; */
 }
-.right-side .formgroup textarea{
-    width: 397px;
-    height: 155px;
-    border: #e5e5e5 solid 1px;
-    display: inline-block;
-    float: right;
-    /* margin-bottom: 100px; */
+.right-side .formgroup.up-phone{float: left;}
+.right-side .formgroup.uphone{}
+.right-side .formgroup.up-phone span{}
+.right-side .formgroup.up-phone input{
+    width: 170px;
+    background: #f7f7f7;
 }
-.right-side  button{
-    width: 100px;
-    height: 30px;
-    line-height: 30px;
-    background: #f36;
-    border: none;
-    font-size: 12px;
-    color: #fff;
-    position: relative;
-    top: 30px;
-    left: 97px;
+.right-side .phone .update{
+    float: left;
+    /* font-size: 12px; */
 }
+.phone .update span{
+    color: #ff3366;
+}
+

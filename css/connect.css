@@ -97,15 +97,178 @@
 	color: #b3b0b0;
 }
 /*收藏的店铺*/
-.connect-shop-list{}
-.connect-shop-list li{}
-.connect-shop-list li .left{}
-.left .shop{
-
+.connect-shop-list{
+    height: 330px;
+    /* overflow: hidden; */
+}
+.connect-shop-list>li{
+    display: block;
+    height: 100%;
+    margin-bottom: 20px;
+    /* width: 330px; */
+    /* float: left; */
+}
+.connect-shop-list>li .left{
+	    width: 320px;
+	    height: 330px;
+	    background: #f8f8f8;
+	    float: left;
+	    /* margin-right: 0px; */
+}
+.connect-shop-list .left .shop{
+    /* width: 280px; */
+    height: 130px;
+    background: #f2f0f0;
+    margin: 0 auto;
+    padding-left: 13px;
+}
+.shop .introduce{/* float: left; */font-size: 12px;/* margin-top: 50px; */padding-top: 25px;color: #666;}
+.introduce .shopname{
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-top: 19px; */
+    color: red;
+}
+.shop p{
+    margin-right: 10px;
+    float: left;
+}
+.shop p.end{
+    width: 190px;
+}
+.shop .introduce .contact{
+    /* position: relative; */
+    /* height: 50px; */
+    /* top: 50px; */
+    /* left: -100px; */
+    width: 72px;
+    height: 22px;
+    float: left;
+    line-height: 22px;
+    text-align: center;
+    border: #f36 solid 1px;
+    margin-right: 15px;
+    margin-left: 78px;
+    margin-top: 10px;
+    color: #f36;
+    /* float: left; */
+}
+.shop .introduce .follow{
+    width: 72px;
+    height: 22px;
+    float: left;
+    line-height: 22px;
+    text-align: center;
+    /* background: red; */
+    border: #363636 solid 1px;
+    /* color: #666; */
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.shop .img{
+    display: block;
+    width: 68px;
+    height: 68px;
+    /* border-radius: 50px; */
+    /* text-align: center; */
+    border-radius: 5px;
+    float: left;
+    line-height: 13;
+    margin-right: 10px;
+}
+.shop .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 68px;
 }
 .left .dynamic{
-
+    width: 270px;
+    height: 35px;
+    line-height: 35px;
+    /* background: #e66565; */
+    margin: 0 auto;
+    margin-top: 20px;
 }
+.left .dynamic .time{
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    margin-right: 20px;
+}
+.dynamic .time span{}
 .left .evaluate{
-	
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    border-top: #4c4a4a solid 1px;
+    position: relative;
+    top: 85px;
+}
+.evaluate>ul{
+    width: 96%;
+    height: 100%;
+    margin: 0 auto;
+}
+.evaluate ul>li{
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #999;
+    border-right: #7c7979 dashed 1px;
+    font-size: 12px;
+    float: left;
+}
+.evaluate .option{}
+.option .title{}
+.option .point{}
+.option .point i{}
+.connect-shop-list>li .right{
+    float: left;
+}
+.connect-shop-list .right ul{
+    float: left;
+    margin-left: 10px;
+}
+.connect-shop-list .right ul li{
+    float: left;
+    width: 207px;
+    height: 330px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.connect-shop-list .right ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.connect-shop-list .right ul li a img{
+    width: 100%;
+    height: 100%;
+}
+.connect-shop-list .right ul li a .detail{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    top: -39px;
+    /* background: red; */
+    background-color: #fff;
+    opacity: .8;
+    backface-visibility: 0.5;
+}
+.connect-shop-list .right ul li a .detail .price{
+    font-size: 14px;
+    color: #f36;
+    float: left;
+    margin-left: 15px;
+    /* width: 50px; */
+}
+.connect-shop-list .right ul li a .detail .sell{
+    font-size: 14px;
+    color: #685757;
+    float: right;
+    margin-right: 15px;
 }
