@@ -53,6 +53,14 @@ input,textarea{
 .hide{
 	display: none;
 }
+.container{
+	width: 1260px;
+	margin: 0 auto;
+}
+.inline{
+	display: inline-block;
+}
+
 /*å¤´éƒ¨*/
 #head{
 	width: 100%;
@@ -96,8 +104,9 @@ input,textarea{
 /*æœç´¢æ¡†åŠä¸¤è¾¹*/
 #com-search{
 	width: 1200px;
-	height: 120px;
+	/* height: 120px; */
 	margin: 0 auto;
+	overflow:  hidden;
 }
 .com-search-left{
 	margin-top: 40px;
@@ -115,7 +124,8 @@ input,textarea{
 	width: 520px;
 	height: 80px;
 	margin-top: 20px;
-	/*	background: yellowgreen;*/
+	/* background: yellowgreen; */
+	z-index: 999;
 }
 .com-search-center .baobei{
 	width: 56px;
